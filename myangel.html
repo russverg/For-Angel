@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        @ import url(https://fonts.googleapis.com/css?family=Fredericka+the+great);
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: black;
+    
+  margin: 0;
+  
+    
+}
+
+header {
+    background: conic-gradient(#477636 0%, #8e4e9 100%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+    
+}
+header h1 {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: pink;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+     box-shadow: 
+                1px 1px 0px 0px, 
+                2px 2px 0px 0px, 
+                3px 3px 0px 0px, 
+                4px 4px 0px 0px, 
+                5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    
+    
+    
+        }
+
+nav a {
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+  display: inline-block;
+  padding: 1em 0.75em;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+    box-shadow: 
+                1px 1px 0px 0px, 
+                2px 2px 0px 0px, 
+                3px 3px 0px 0px, 
+                4px 4px 0px 0px, 
+                5px 5px 0px 0px;
+            padding: 0.25em 0.5em;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+  background-color: rgba(255,255,255,0.1);
+  transform: translateY(-5px);
+}
+
+main {
+  display: flex;
+  padding: 40px;
+}
+
+section {
+  flex: 1;
+  padding: 40px;
+  background-color: #FFF;
+  color: #333;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+footer {
+      background: conic-gradient(lightpink, hotpink, pink);
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    display: flex;
+    justify-content: center;
+        bottom: 0;
+        width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+   
+}
+
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+     box-shadow: 
+                1px 1px 0px 0px, 
+                2px 2px 0px 0px, 
+                3px 3px 0px 0px, 
+                4px 4px 0px 0px, 
+                5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+}
+button:active{
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+}
+button:after {
+    content: "";
+   position: absolute;
+    border: 1px solid white;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100%-1px);
+    height: calc(100%-1px);
+}
+@media (min-width: 768px){
+    button{
+        padding: 0.25em 0.75em;
+    }
+}
+
+button:hover {
+  background: #f8f8ff;
+    box-shadow: -15px -15px 30px 0px #fff,
+        15px 15px 30px 0 #1d0dca17;
+}
+button:hover:after{
+    bottom: 2px;
+    left: 2px;
+}
+p {  
+    text-align: justify;
+    background-color: lightpink;
+    font-size: 1.4rem;
+    font-family: 'Georgie', serif;
+    line-height: 1.5;
+    color: white;
+    padding: 1rem;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.1);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+p2 {
+     text-align: justify;
+    font-size: 1.4rem;
+    font-family: 'Georgie', serif;
+    line-height: 1.5;
+    color: black;
+    padding: 1rem;
+    
+      
+    
+    
+    
+}
+    
+   
+    
+
+    
+    </style>
+  <head>
+    <meta charset="utf-8">
+    <title>For Angel Only</title>
+    
+  </head>
+  <body>
+    <header>
+      <h1>ANGEL CUTIE</h1>
+      <nav>
+        <ul>
+          <li><a href="#">HAPPY</a></li>
+          <li><a href="#">VALENTINE'S</a></li>
+          <li><a href="#">DAY!!!</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+       
+        <div>
+        <p id ="part1">Hello, Mahal! Hehehe, this is my first website nga pala so I thought na gawan ka this hearts day</p>
+            <button type="button" onclick="myFunction()">next</button>
+        </div>
+    </main>
+    <footer>
+      <p2>Akin lang po si Angel</p2>
+    </footer>
+
+    <script src="script.js"></script>
+      <script>
+        var curNum=0;
+          var arrOfDialogs=['It might not be the best mahal pero I will do my best na mapaimprove tong ginagawa ko and sana maappreciate mo ito kahit na hindi gaano kaganda and basic pa lang din naman ito hehehe',
+                            
+                            'So unang una mahal ko, gusto kong sabihin na Happy Valentines Day mahal ko at mahal kita. Thank you for everything mahal, for motivation and all. You motivated to me to keep improving mahal like gusto kong ituloy-tuloy to ganon basta hehhehe dati kasi dumadating ako sa point na tinatamad na naman ako ganon and chuchu but sa tingin ko ngayon I have changed so please sana magustuhan mo ako hehehe I know naman na ang daming mga kwan dyan HAHAHHAHA mga bading pero yonoh kay Russver siya napunta hay buti na lang talaga hindi kay ano hehehe thank you baby hindi ako magsasawang magsalamat sabihing mahal kita, sa pagpili mo sakin. Happy Valentines Day my love, kahit na medyo busy na tayo syempre meron pa rin dapat tayong time para sa isat isat kasi i need you and i know that you need me too mahal kasi makapal mukha ko at confident HAHAHAHAHA', 
+                            
+                            'Goodbye',
+                            'Mahal na mahal kita']
+          function myFunction (){
+              if(curNum<arrOfDialogs.length)
+                  document.getElementById('part1').innerHTML=arrOfDialogs[curNum++];
+          }
+      </script>
+  </body>
+</html>
